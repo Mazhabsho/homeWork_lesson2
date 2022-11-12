@@ -1,5 +1,5 @@
 # homeWork_lesson2
-                                 #STRING
+# STRING
 
 In JavaScript, the textual data is stored as strings.Strings can be enclosed(закрытый) within either single quotes, double quotes or backticks:
 1.let single = 'single-quoted';
