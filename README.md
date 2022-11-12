@@ -13,33 +13,33 @@ Another advantage of using backticks is that they allow a string to span multipl
  * John
  * Pete
  * Mary
-
-                              ### String length
+ * 
+### String length
 
     The length property has the string length.Please note that str.length is a numeric property (числовое свойство), not a function. There is no need to add parenthesis after it. Not .length(), but .length.
  
-                              #####charAt()
+ ##### charAt()
     The charAt() method returns the character at a specified index (position) in a string.The index of the first character is 0, the second 1, ...
     Exp:let text = "HELLO SOFTCLUB";
      let letter = text.charAt(1);
      
-                             ##### indexOf()
+##### indexOf()
 
     Метод indexOf() возвращает индекс первого вхождения указанного значения в строковый объект String, на котором он был вызван, начиная с индекса fromIndex. Возвращает -1, если значение не найдено.
 
-    ###### Синтаксис:
+###### Синтаксис:
 
     str.indexOf(searchValue, [fromIndex])
 1.searchValue - Строка, представляющая искомое значение.
 
 2.fromIndex - Необязательный параметр. Местоположение внутри строки, откуда начинать поиск. Если fromIndex >= str.length, метод вернёт -1, но только в том случае, если searchValue не равен пустой строке, в этом случае он вернёт str.length.
 
-                               ##### split()
+##### split()
 
 Метод split() возвращает новый массив.
 
+##### slice()
 
-                               ##### slice()
 Определение и использование
 
 Метод slice() извлекает часть строки.
@@ -62,7 +62,7 @@ end 	Optional.
 The end position (up to, but not including).
 Default is string length.
 
-                            ##### replace()
+##### replace()
 
 - replace() выполняет поиск значения или регулярного выражения в строке.
 
@@ -71,25 +71,25 @@ Default is string length.
 - replace() не изменяет исходную строку.
 - Если вы замените значение, будет заменен только первый экземпляр. Чтобы заменить все экземпляры, используйте регулярное выражение с установленным модификатором gi.
 
-                            ##### trim()
+##### trim()
 
         Метод trim() удаляет пробелы с обеих сторон строки.trim() не изменяет исходную строку.Метод TrimEnd() удаляет пробелы из конца строки и TrimStart() удаляет пробелы из начала строки.
 
-                            ##### search()
+##### search()
 
         Метод search() сопоставляет строку с регулярным выражением ** search() возвращает индекс (позицию) первого совпадения.Метод возвращает значение -1, если совпадение не найдено.
  
-                           ##### repeat()
+##### repeat()
 
         Метод repeat() возвращает строку с количеством копий строки.Метод возвращает новую строку. Syntax
         string.repeat(count)
 
-                     ##### concet()
+##### concet()
 
         Метод concat() объединяет две или более строк.concat() не изменяет существующие строки.Метод возвращает новую строку.Syntax
         string.concat(string1, string2, ..., stringX)
 
-                       ##### toUpperCase()
+##### toUpperCase()
 
         Метод toUpperCase() возвращает значение строки, преобразованное в верхний регистр. Этот метод не влияет на значение самой строки, поскольку строки JavaScript неизменяемы.Syntax
 
